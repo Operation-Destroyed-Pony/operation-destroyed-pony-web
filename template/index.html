@@ -3,6 +3,7 @@
     <div class="grid-container">
         <header class="header">
             <div class ="brand">
+                <button onclick="openMenu()">&#@9776;</button>
                 <a href="index.html">Operation Destroyed Pony</a>
             </div>
             <div class="header-links">
@@ -10,6 +11,10 @@
                 <a href="signin.html">Sign In</a>
             </div>
         </header>
+        <main class="main">
+        </main>
+        <footer class="footer">
+        </footer>
 <head>
     <title>Operation Destroyed Pony</title>
     <link rel="stylesheet" href="style.css">
@@ -47,4 +52,12 @@
     </div>
 </body>
 </div>
+    <script>
+        function openMenu() {
+            document.querySelector(".sidebar").classList.add("open");
+        }
+        function closeMenu() {
+            document.querySelector(".sidebar").classList.remove("open");
+        }
+    </script>
 </html>
