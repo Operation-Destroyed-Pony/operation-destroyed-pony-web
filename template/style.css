@@ -40,3 +40,20 @@ body {
 .header-links a:hover {
     color: #ff8000;
 }
+.main {
+    grid-area: main;
+}
+.footer {
+    grid-area: footer;
+    background-color: #203040;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #ff8000;
+}
