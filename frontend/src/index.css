@@ -127,7 +127,6 @@ a:hover {
 .product-rating {
   margin-bottom: 1rem;
 }
-<<<<<<< HEAD
 .checkout.steps {
   display: flex;
   justify-content: space-between;
@@ -169,7 +168,7 @@ input {
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
   border-radius: 0.5rem;
-=======
+}
 .order-header {
   display: flex;
   justify-content: space-between;
@@ -186,5 +185,4 @@ th {
 }
 tbody > tr:nth-child(odd) {
   background-color: #f0f0f0;
->>>>>>> f6f5d6d5e9af51021ca966dc6a3a692fb231defe
 }
