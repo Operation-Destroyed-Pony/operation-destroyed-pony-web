@@ -14,8 +14,9 @@ function Products() {
                                     <a href="product.html">{product.name}</a>
                                 </div>
                              <div className="product-brand">{product.brand}</div>
-                             <div className="product-price">{product.price}</div>
-                             <div className="product-rating">{product.rating} Starts ({product.numberOfReviews} Reviews)</div>
+                             <div className="product-color">{product.color}</div>
+                             <div className="product-price"> ${product.price}</div>
+                             <div className="product-rating">{product.rating} Stars ({product.numberOfReviews} Reviews)</div>
                             </div>
                         </li>)
                 }
