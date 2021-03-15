@@ -5,6 +5,7 @@ import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 import Product from './Products/Products';
 import Home from './Home/Home';
 import Orders from './Orders/Orders';
+import Payment from './Payment/Payment';
 
 function App() {
   const openMenu = () => {
@@ -31,6 +32,7 @@ function App() {
             <Link to="/">Home</Link>
             <Link to="/catalog">Catalog</Link>
             <Link to="/orders">Orders</Link>
+            <Link to="/payment">Payment</Link>
           </div>
         </header>
 
@@ -60,6 +62,9 @@ function App() {
                 </Route>
                 <Route path="/orders">
                   <Orders />
+                </Route>
+                <Route path="/payment">
+                  <Payment />
                 </Route>
               </Switch>
             </main>
