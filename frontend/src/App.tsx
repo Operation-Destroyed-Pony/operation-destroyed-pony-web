@@ -59,6 +59,8 @@ function App() {
               </Switch>
             </main>
 
+            
+
             <footer className="footer">
               &copy; 2021 Operation Destroyed Pony
             </footer>
