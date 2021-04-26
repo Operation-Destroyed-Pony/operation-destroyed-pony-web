@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import data from './data';
 
 interface IProduct {
     imageUrl: string;
@@ -41,7 +40,6 @@ function Products() {
                                     <a href="product.html">{product.name}</a>
                                 </div>
                              <div className="product-brand">{product.brand}</div>
-                             <div className="product-color">{product.color}</div>
                              <div className="product-price"> ${product.price}</div>
                             </div>
                         </li>
